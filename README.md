@@ -3,7 +3,7 @@ The objective of this work was to predict, within a telecommunications company, 
 10 files were provided with different variables each, within which each customer could be identified by a unique line_id.
 By means of these files and the information recorded in the activity, data and behavior of each customer, a predictive model had to be made to achieve the desired result, having as final result or deliverable a file with two columns: in the first one, the customer's line_id and in the second one a 0 or a 1 that indicates whether the customer will upgrade or not.
 
-## exploratory analysis
+## Exploratory Analysis
 
 The purpose of the analysis was to detect variables that could be eliminated or transformed to provide simpler information to the model, such as grouping variables into categories or eliminating variables with low variability. Two functions were used for this purpose, one for categorical variables and the other for numerical variables. These functions apply a criterion to each column of the dataset and based on that criterion we decide whether that variable constitutes noise:
 
